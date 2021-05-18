@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.repo-layout {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100vh;
+    padding: 20px;
+  }
+  
+  .repo-box {
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .repo-details {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+
+  .repo-image {
+    height: 10rem;
+    width: 10rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid black;
+    padding: .5rem;
+    position: sticky;
+    top: 0;
+  }
