@@ -10,7 +10,7 @@
 export interface IRepo {
   name: string;
   description: string;
-  stars: number;
+  watchers_count: number;
   open_issues: number;
   owner:{
     login: string;

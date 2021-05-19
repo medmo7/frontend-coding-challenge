@@ -13,7 +13,7 @@ export default function ReposList(props: any): Array<JSX.Element> {
           <div>{repo.description}</div>
           <section style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div>
-              Stars:{repo.stars} Issues:{repo.open_issues}
+              Stars:{repo.watchers_count} Issues:{repo.open_issues}
             </div>
           </section>
         </div>
