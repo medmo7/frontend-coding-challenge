@@ -31,7 +31,11 @@ const Home = () => {
   return (
     <React.Fragment>
       <React.Suspense fallback={<div>...loading</div>}>
-          <section className='episode-layout'>
+          <section className='header'>
+              <h1 className='header-title'>Gemography frontend coding challenge</h1>
+              <h5 className='header-author'>By Mohamed BOURGA</h5>
+          </section>
+          <section className='repo-layout'>
             <InfiniteScroll
               pageStart={0}
               loadMore={fetchReposData}
