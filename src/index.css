@@ -23,9 +23,11 @@ code {
   }
   
   .repo-box {
-    padding: .5rem;
+    padding: .8rem;
     display: flex;
     flex-direction: row;
+    border-bottom-width: 1px;
+    
   }
 
   .repo-details {
@@ -46,11 +48,12 @@ code {
 
   }
   .starts-box-el{
+      display: flex;
+      align-items: center;
       padding: 1rem;
-      border-radius: 5;
-      border-width: 1px;
-      border-color: black;
+      
   }
+  
   .header {
     display: flex;
     justify-content: space-between;

@@ -42,6 +42,9 @@
     ]
   },
   "devDependencies": {
+    "@iconify-icons/akar-icons": "1.1.11",
+    "@iconify-icons/codicon": "1.1.15",
+    "@iconify/react": "1.1.4",
     "@types/react-infinite-scroller": "1.2.1",
     "@types/react-router-dom": "5.1.7"
   }
