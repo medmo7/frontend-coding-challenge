@@ -1,11 +1,3 @@
-// export interface IState {
-//     episodes: Array<IEpisode>;
-//     favorites: Array<any>;
-//   }
-//   export interface IAction {
-//     type: string;
-//     payload: any;
-//   }
 
 export interface IRepo {
   name: string;
@@ -18,9 +10,3 @@ export interface IRepo {
   }
   
 }
-
-//   export interface EpisodeProps {
-//     episodes: Array<IEpisode>;
-//     favorites: Array<IEpisode>;
-//     toggleFavAction: (episode: IEpisode) => IAction;
-//   }

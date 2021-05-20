@@ -14,16 +14,17 @@ const Home = () => {
     fetchReposData();
   }, []);
 
+  /**
+   * Effect: fetches data from the Github api depending on requested pageNumber
+   */
   const fetchReposData = async () => {
     const today = new Date();
     today.setDate(today.getDate() - 30);
     const nextPageNumber = pageNumber + 1;
     const fetchDate = today.toLocaleDateString();
     const url = `https://api.github.com/search/repositories?q=created:>${fetchDate}&sort=stars&order=desc&page=${nextPageNumber}`;
-    // const url = `https://api.github.com/search/repositories?q=created:>2017-10-22&sort=stars&order=desc`;
     const data = await fetch(url);
     const dataJson = await data.json();
-    console.log(dataJson);
     setRepos([...repos,...dataJson.items]);
     setPageNumber(nextPageNumber)
   };
