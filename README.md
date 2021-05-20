@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Gemography frontend-coding-challenge(solution)
+
+This small project is a solution for the frontend conding challenge offred by https://www.gemography.com, one of the challenges that developer applaying for job can do.  The app is fetching the Github api and presenting the most starred Github repos created in the last 30 days.  This is a typescript project, the use of it in the project is minimal but still very usefull to definy the shape of data coming from the api and passing it around secruly between components.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
