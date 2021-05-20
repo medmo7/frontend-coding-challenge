@@ -11,11 +11,14 @@ export default function ReposList(props: any): Array<JSX.Element> {
         <div className='repo-details'>
           <h2>{repo.name}</h2>
           <div>{repo.description}</div>
-          <section style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <div>
-              Stars:{repo.watchers_count} Issues:{repo.open_issues}
+          <div className='starts-box'>
+            <div className='starts-box-el' >
+              Stars:{repo.watchers_count} 
             </div>
-          </section>
+            <div className='starts-box-el'>
+            Issues:{repo.open_issues}
+            </div>
+          </div>
         </div>
       </section>
     );

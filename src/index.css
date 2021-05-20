@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+    padding: 10%;
+}
 .repo-layout {
     display: flex;
     flex-wrap: wrap;
@@ -31,13 +35,22 @@ code {
     justify-content: space-between;
     align-items: flex-start;
   }
-
-
+  
   .repo-image {
     height: 10rem;
     width: 10rem;
   }
-  
+  .starts-box{
+     display: flex;
+     flex-direction: row;
+
+  }
+  .starts-box-el{
+      padding: 1rem;
+      border-radius: 5;
+      border-width: 1px;
+      border-color: black;
+  }
   .header {
     display: flex;
     justify-content: space-between;
